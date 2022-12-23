@@ -1,0 +1,48 @@
+{% extends 'women/base.html' %} {% block content %}
+
+<h1>Галерея </h1>
+{% for contact in page_obj %}
+<p>{{ contact }}</p>
+
+{% endfor %}
+
+
+
+
+<div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+
+        <img src="https://euro2016.soccer.ru/sites/default/files/rb8bo15jxmoaz6d9abbzgcqpsxi862.jpg" width="400px" alt="Wintry Mountain Landscape" />
+        <img src="https://i.pinimg.com/originals/b2/bf/b6/b2bfb63a705c360939aad896855a0149.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+
+
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://static4.aniimg.com/upload/20181110/5776/C/K/C/CKCmEF.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+        <img src="https://sportishka.com/uploads/posts/2022-08/1661273816_1-sportishka-com-p-basketbolist-stefen-karri-oboi-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+        <img src="https://images.hdqwalls.com/download/stephen-curry-hq-5120x2880.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+        <img src="https://img.championat.com/s/1350x900/news/big/x/b/aleksandr-ovechkin-pro-the-international-2021-rebyata-iz-virtus-pro-rossiya-s-vami_16339588351929441297.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="https://thailand-news.ru/sites/default/files/storage/images/2012-24/mihael_shumaher_gonka_v_monte_karlo_2012.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+        <img src="https://sportishka.com/uploads/posts/2022-09/thumbs/1663185474_7-sportishka-com-p-lebron-dzheims-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/4487230/pub_60d27992da142d6b10f3b5db_60d27acefe04dc40bb004669/scale_1200" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+    </div>
+
+
+
+
+
+</div>
+
+
+{% endblock %}
